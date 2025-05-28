@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 21
+Implementation-Title: hybrid-quantum-orchestration
+Implementation-Version: 0.0.1-SNAPSHOT
+Main-Class: upc.hybrid_quantum_orchestration.HybridQuantumOrchestrationA
+ pplication
+Created-By: Maven Integration for Eclipse
+

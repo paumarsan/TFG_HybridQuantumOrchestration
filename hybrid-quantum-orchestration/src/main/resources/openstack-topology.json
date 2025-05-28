@@ -1,0 +1,67 @@
+{
+	"Datacenter":{
+		"clusterList":[
+			{"Cluster":{
+				"rackList":[
+					{"Rack":{
+						"serverList":[
+							{"Server":{
+								"id":"nova:ubuntu-devstack-control",
+								"cpu":4,
+								"ram":4000,
+								"storage":28
+							}},
+							{"Server":{
+								"id":"nova:ubuntu-devstack",
+								"cpu":2,
+								"ram":6000,
+								"storage":28
+							}}
+						]
+					}}
+				]	
+			}}
+		],
+		"qClusterList":[
+			{"QuantumCluster":{
+				"qRackList":[
+					{"QuantumRack":{
+						"qServerList":[
+							{"QuantumServer":{
+								"qbits":50,
+								"ip":"127.0.0.1",
+								"port":58340
+							}},
+							{"QuantumServer":{
+								"qbits":50,
+								"ip":"127.0.0.1",
+								"port":58341
+							}}
+							
+							
+						]
+					}},
+					{"QuantumRack":{
+						"qServerList":[
+							{"QuantumServer":{
+								"qbits":50,
+								"ip":"127.0.0.1",
+								"port":58342
+							}},
+							{"QuantumServer":{
+								"qbits":50,
+								"ip":"127.0.0.1",
+								"port":58343
+							}}
+							
+							
+						]
+					}}
+					
+				
+				]
+			}}
+
+		]
+	}
+}
